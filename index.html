@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Titre de la page -->
+    <title>Meryem</title>
+    <!-- Icone de l'onglet -->
+    <link rel="shortcut icon" href="logo.png" />
+  </head>
+  <body>
+    <header>
+      <h1><span>&#10054;</span> Texte - Titre H1</h1>
+      <p>
+        Texte Basique, <em>Voici un texte en Italique</em>,
+        <strong>et un texte en gras.</strong
+        ><span>L'élément en span ne revient pas a la ligne.</span>
+      </p>
+      <p>Lorem ipsum dolor sit amet consectetur je t'aime adipisicing elit.</p>
+    </header>
+    <section>
+      <div>
+        <h2>Photos - Titre H2</h2>
+        <img src="photo.jpg" height="200" alt="Image Belgique" />
+      </div>
+      <div>
+        <h3>Listes - Titre H3</h3>
+        <ul>
+          <li>UL = Unordered List</li>
+          <li>UL = Unordered List</li>
+          <li>UL = Unordered List</li>
+        </ul>
+        <ol>
+          <li>OL = Ordered List</li>
+          <li>OL = Ordered List</li>
+          <li>OL = Ordered List</li>
+        </ol>
+      </div>
+      <div>
+        <h4>Tableau - Titre H4</h4>
+        <table border="1" width="50%">
+          <!-- Légende -->
+          <caption>
+            Populations d'Europe
+          </caption>
+          <!-- En-tête -->
+          <thead>
+            <tr>
+              <th>Pays</th>
+              <th>Populations</th>
+            </tr>
+          </thead>
+          <!-- Corps du tableau -->
+          <tbody>
+            <tr>
+              <td>France</td>
+              <td>68M</td>
+            </tr>
+            <tr>
+              <td>Belgique</td>
+              <td>1</td>
+            </tr>
+            <tr>
+              <td>Allemagne</td>
+              <td>82M</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div>
+        <h5>Liens - Titre H5</h5>
+        <a href="https://www.instagram.com/meryem.a1307/" target="_blank"
+          >Ma vie</a
+        >
+        <br />
+        <a
+          href="https://www.google.fr/search?q=x%5E%282%2F3%29%2B0.9*%28%283.3-x%5E2%29%5E%281%2F2%29%29*%28sin%281000*3.14*x%29%29&sca_esv=585258922&sxsrf=AM9HkKmFxS2wb5T0Vzlu5KcRSEGNeVIWNA%3A1700927203629&source=hp&ei=4xZiZfT1I5mhkdUPzIauqAk&iflsig=AO6bgOgAAAAAZWIk81Tzrf8gC2bw_DUHFm5Xhe3jLo9a&ved=0ahUKEwi084jOv9-CAxWZUKQEHUyDC5UQ4dUDCAo&uact=5&oq=x%5E%282%2F3%29%2B0.9*%28%283.3-x%5E2%29%5E%281%2F2%29%29*%28sin%281000*3.14*x%29%29&gs_lp=Egdnd3Mtd2l6IjB4XigyLzMpKzAuOSooKDMuMy14XjIpXigxLzIpKSooc2luKDEwMDAqMy4xNCp4KSkyBBAjGCdIxQRQAFgAcAB4AJABAJgBK6ABK6oBATG4AQPIAQD4AQL4AQE&sclient=gws-wiz"
+          target="_blank"
+        >
+          Cadeau ❤️</a
+        >
+      </div>
+      <div>
+        <h6>Vidéo - Titres H6</h6>
+        <video src="video.mp4" autoPlay loop width="30%"></video>
+      </div>
+    </section>
+    <br />
+    <!-- Formulaire -->
+    <section>
+      <h2>Formulaire</h2>
+      <form action="/action.php" method="post">
+        <label for="name">Nom </label>
+        <input id=name  type="text" placeholder="Entrez votre nom :" /><br>
+        <label for="age">Age </label>
+        <input id="age" min="0" max="100" step="1" value="19" type="number"><br>
+        <!-- Input Select -->
+        <label for="gender">Genre </label>
+        <select id="gender" name=""">
+            <option selected value="Homme">Homme</option>
+            <option value="Femme">Ma Femme</option>
+        </select>
+        <!-- Input Radio -->
+        <div>
+            <input type="radio" name="type" id="human">
+            <label for="human">Humain</label>
+            
+            <input type="radio" name="type" id="dog">
+            <label for="dog">Furry</label>
+
+            <input type="radio" name="type" id="angel" checked>
+            <label for="angel">Ange</label>
+
+        </div>
+
+        <textarea cols="30" rows="10" placeholder="Entrez votre demande ici :"></textarea><br>
+
+        <!-- Input Checkbox -->
+        <label><input type="checkbox">Accepter d'être ma copine</label>
+        <label><input type="checkbox">Accepter d'être ma meilleure amie</label>
+        <label><input type="checkbox">Accepter d'être ma femme</label>
+        <label><input type="checkbox">Accepter d'être dans ma vie</label>
+        <br>
+        <input type="submit" value="Valider">
+    </form>
+    </section>
+    <br>
+    <footer>
+        <a href="mailto:lasrybeskiwin@gmail.com">Ecris moi !</a>
+        <br>
+        <a href="message.txt" download="message">Telecharger le fichier</a>
+    </footer>
+  </body>
+</html>
